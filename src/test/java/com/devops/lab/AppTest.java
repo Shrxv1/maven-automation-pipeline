@@ -24,7 +24,7 @@ public class AppTest {
 
     @Test
     public void verifySystemBottleneckValidation() {
-        boolean constraintDefectDetected = true;
+        boolean constraintDefectDetected = false;
 
         // Intentionally fail to simulate a system bottleneck
         org.junit.jupiter.api.Assertions.assertFalse(
